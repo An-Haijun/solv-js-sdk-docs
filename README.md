@@ -6,7 +6,7 @@ Uniswap SDK 的存在是为了帮助开发人员在 Solv 之上进行构建。�
 
 使用 SDK 的最简单方法是通过 npm。要将其安装到您的项目中，只需运行：
 
-* 使用纱线： 
+* 使用 yarn： 
 
 ```bash
 yarn add git+ssh://git@github.com:solv-finance-dev/solv-ic-js-sdk.git ethers bignumber.js -S
@@ -17,6 +17,8 @@ yarn add git+ssh://git@github.com:solv-finance-dev/solv-ic-js-sdk.git ethers big
 ```bash
 npm install git+ssh://git@github.com:solv-finance-dev/solv-ic-js-sdk.git ethers bignumber.js -S
 ```
+
+> SDK 依赖项目本身 ethers.js@^9.0.1 | bignumber.js@^5.1.0
 
 ## 用法
 
