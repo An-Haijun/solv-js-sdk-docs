@@ -4,7 +4,7 @@
 
 铸造票据：目前支持铸造以下三种释放方式的票据
 
-Mint之前需检查是否已对合约进行授权 [underlyingAllowance](#underlyingAllowance)
+Mint之前需检查是否已对合约进行授权 [underlyingAllowance](token.md#underlyingAllowance)
 
 ```typescript
 import { ChainId, ICToken, PoolTokenSchema } from '@solver/ic-market-sdk'
@@ -18,7 +18,7 @@ const icTokenSchema: PoolTokenSchema = await getPoolTokenSchemaBySymbol(ChainId.
 const icToken: ICToken = new ICToken(provider, icTokenSchema, walletAccount)
 ```
 
-- 线性释放
+* 线性释放
 
 ```typescript
 // 实际输入数量 * tokenDecimals
@@ -31,7 +31,7 @@ const term: number = 30 * 86400
 const res = await icToken.mint(term, amount, maturities, percentages, '', {})
 ```
 
-- 单点释放（term = 0）
+* 单点释放（term = 0）
 
 ```typescript
 const amount: string = '100000000000000000000'
@@ -41,7 +41,7 @@ const term: number = 0 // Must 0
 const res = await icToken.mint(term, amount, maturities, percentages, '', {})
 ```
 
-- 多点释放
+* 多点释放
 
 ```typescript
 const amount: string = '100000000000000000000'
@@ -57,7 +57,7 @@ icToken合约 - 返回 icToken 底层资产授权数量
 
 ## underlyingApprove
 
- icToken合约 - 底层资产授权
+icToken合约 - 底层资产授权
 
 ## isApprovedForAll
 
@@ -66,3 +66,4 @@ icToken合约 - 返回 icToken 底层资产授权数量
 ## setApprovalForAll
 
 票据底层资产授权
+
