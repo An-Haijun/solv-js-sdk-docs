@@ -1,5 +1,5 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [SDK Quick start](README.md)
 * [ic-token](token.md)
 
