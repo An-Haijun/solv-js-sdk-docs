@@ -1,10 +1,10 @@
 # ICToken
-1
+
 ## Mint
 
 铸造票据：目前支持铸造以下三种释放方式的票据
 
-Mint之前需检查是否已对合约进行授权 [underlyingAllowance](token.md#underlyingAllowance)
+Mint之前需检查是否已对合约进行授权 [underlyingAllowance](token.md#underlyingallowance)
 
 ```typescript
 import { ChainId, ICToken, PoolTokenSchema } from '@solver/ic-market-sdk'
