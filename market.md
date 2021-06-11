@@ -10,11 +10,11 @@
 
 ## buyByAmount
 
-按输入的票据支付币种金额购买
+按输入的票据支付币种金额购买，需查询用户是否已授权 [currencyAllowance](#currencyallowance)，授权方法 [currencyApprove](#currencyapprove)
 
 ## buyByUnits
 
-按输入的票据数量购买
+按输入的票据数量购买，需查询用户是否已授权 [currencyAllowance](#currencyallowance)，授权方法 [currencyApprove](#currencyapprove)
 
 ## buyByETHAmount
 
