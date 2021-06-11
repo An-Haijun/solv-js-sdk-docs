@@ -28,5 +28,5 @@ npm install git+ssh://git@github.com:solv-finance-dev/solv-ic-js-sdk.git ethers 
 import { ICToken } from '@solver/ic-market-sdk'
 ```
 
-![欧洲杯](https://p6.itc.cn/q_70/images03/20210305/fc336948bc2b44fea8a909b7fb8ad9a9.jpeg)
+
 
