@@ -18,7 +18,7 @@ yarn add git+ssh://git@github.com:solv-finance-dev/solv-ic-js-sdk.git ethers big
 npm install git+ssh://git@github.com:solv-finance-dev/solv-ic-js-sdk.git ethers bignumber.js -S
 ```
 
-> SDK 依赖项目本身 ethers.js@^9.0.1 | bignumber.js@^5.1.0
+> SDK 依赖于项目本身 ethers.js@^9.0.1 | bignumber.js@^5.1.0
 
 ## 用法
 
