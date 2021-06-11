@@ -1,4 +1,4 @@
-# ic-token
+# ICToken
 
 ## Mint
 
