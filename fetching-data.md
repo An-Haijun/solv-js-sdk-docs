@@ -20,7 +20,7 @@ const icTokenInstance: ICTokenInstance = new ICTokenInstance(
   walletAccount
 )
 
-.useToken()
+icTokenInstance.useToken()
 ```
 
 获取票据信息
