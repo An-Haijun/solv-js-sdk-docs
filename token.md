@@ -4,10 +4,10 @@
 
 铸造票据：目前支持铸造以下三种释放方式的票据
 
-Mint之前需检查是否已对合约进行授权 [underlyingAllowance](token.md#underlyingallowance)
+> 检查是否进行授权 [underlyingAllowance](token.md#underlyingallowance), 未授权需调用 [underlyingApprove](token.md#underlyingApprove) 。
 
 ```typescript
-import { ChainId, ICToken, PoolTokenSchema } from '@solver/ic-market-sdk'
+import { ChainId, ICToken, PoolTokenSchema, PoolTokenType } from '@solver/ic-market-sdk'
 
 // MetaMask provider
 const provider = ethereum
