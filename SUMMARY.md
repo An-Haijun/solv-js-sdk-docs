@@ -2,7 +2,7 @@
 
 * [SDK Quick start](README.md)
 * [Fetching Data](fetching-data.md)
-* [ICToken](token.md)
-* [ICTokenInstance](token-instance.md)
-* [ICMarket](market.md)
+* [VoucherToken](token.md)
+* [VoucherTokenInstance](token-instance.md)
+* [VoucherMarket](market.md)
 
