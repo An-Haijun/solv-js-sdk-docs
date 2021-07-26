@@ -23,7 +23,7 @@ const icTokenInstance: ICTokenInstance = new ICTokenInstance(
 icTokenInstance.useToken()
 ```
 
-获取票据信息1
+获取票据信息
 
 ## sales
 

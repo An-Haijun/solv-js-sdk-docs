@@ -1,8 +1,8 @@
-# VoucherMarket
+# VoucherMarket1
 
 ## publishDecliningPrice
 
-降价出售票据，需查询用户是否已授权 [currencyAllowance](#currencyallowance)，授权方法 [currencyApprove](#currencyapprove)
+1.降价出售票据，需查询用户是否已授权 [currencyAllowance](#currencyallowance)，授权方法 [currencyApprove](#currencyapprove)
 
 ## publishFixedPrice
 
