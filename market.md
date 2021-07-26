@@ -34,5 +34,5 @@
 
 ## currencyApprove
 
-支付币种授权
+支付币种授权 
 
