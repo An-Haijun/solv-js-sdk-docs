@@ -1,4 +1,4 @@
-# ICTokenInstance
+# VoucherTokenInstance
 
 ## claim
 

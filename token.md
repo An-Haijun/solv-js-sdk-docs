@@ -1,4 +1,4 @@
-# ICToken
+# VoucherToken
 
 ## Mint
 
