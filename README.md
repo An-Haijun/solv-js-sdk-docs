@@ -25,7 +25,7 @@ npm install git+ssh://git@github.com:solv-finance-dev/solv-ic-js-sdk.git ethers 
 要在您的应用程序中运行来自 SDK 的代码，请使用 import 语句，具体取决于您的环境支持。请注意，本页后面的指南将使用 ES6 语法。
 
 ```typescript
-import { ICToken } from '@solver/ic-market-sdk'
+import { ICToken } from '@solver/solv-vouchers-sdk'
 ```
 
 

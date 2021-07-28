@@ -7,15 +7,15 @@
 > 检查是否进行授权 [underlyingAllowance](token.md#underlyingallowance), 未授权需调用 [underlyingApprove](token.md#underlyingApprove) 。
 
 ```typescript
-import { ChainId, ICToken, PoolTokenSchema, PoolTokenType } from '@solver/ic-market-sdk'
+import { ChainId, ICToken, VoucherTokenSchema } from '@solver/solv-vouchers-sdk'
 
 // MetaMask provider
 const provider = ethereum
 const walletAccount: string = '0x9C0cF35Cf489f6893A7bCf5209819CD15500D1a1'
-const icTokenSymbol: string = 'icSOLV'
+const voucherTokenSymbol: string = 'icSOLV'
 
-const icTokenSchema: PoolTokenSchema = await getPoolTokenSchemaBySymbol(ChainId.mainnet, icTokenSymbol, PoolTokenType.icToken)
-const icToken: ICToken = new ICToken(provider, icTokenSchema, walletAccount)
+const voucherTokenSchema: VoucherTokenSchema = await getVoucherTokenSchemaBySymbol(ChainId.mainnet, voucherTokenSymbol)
+const icToken: ICToken = new ICToken(provider, voucherTokenSchema, walletAccount)
 ```
 
 * 线性释放
